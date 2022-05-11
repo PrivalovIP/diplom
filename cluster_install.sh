@@ -13,6 +13,8 @@ cd ../
 sudo rm -rf kubespray/inventory/mycluster
 sudo cp -rfp kubespray_inventory kubespray/inventory/mycluster
 
+sleep 1m
+
 cd kubespray
 ansible-playbook -i inventory/mycluster/hosts.ini --become cluster.yml
 

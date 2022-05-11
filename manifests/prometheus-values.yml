@@ -3,8 +3,8 @@ nodeExporter:
   - effect: "NoSchedule"
     operator: "Exists"
 
-server:
-  ingress:
-    enabled: true
-    hosts:
-      - prometheus.local
+# server:
+#   ingress:
+#     enabled: true
+#     hosts:
+#       - prometheus.local
